@@ -56,10 +56,7 @@ namespace ClassLibrary1
                     httpWebRequest.ContentType = http.contentType;
 
                 httpWebRequest.Method = http.methodType;
-                //httpWebRequest.KeepAlive = false;
-                // httpWebRequest.Timeout = 60000;
-                // httpWebRequest.ReadWriteTimeout = 60000;
-                //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11;
+
                 if (http.token != string.Empty)
                     httpWebRequest.Headers.Add(HttpRequestHeader.Authorization, "Bearer " + http.token);
 
