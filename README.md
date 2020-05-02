@@ -1,8 +1,8 @@
 # HttpLibrary
-http lib used to make rest calls easily in  c# projects
+http library used to make rest calls easily in  c# projects
 
 # How to use
-integrate the dll in working project from HttpLibrary/tree/master/ClassLibrary1/bin/Debug/ClassLibrary1.dll
+Integrate the dll in working project from HttpLibrary/tree/master/ClassLibrary1/bin/Debug/ClassLibrary1.dll
 
 # GET
 ```
